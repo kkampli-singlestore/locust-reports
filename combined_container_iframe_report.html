@@ -1,5 +1,4 @@
-# combine_iframe.py
-combined_iframe_html = """
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,9 +20,3 @@ combined_iframe_html = """
     <iframe src="locust_report_container_gpu.html"></iframe>
   </body>
 </html>
-"""
-
-with open("combined_container_iframe_report.html", "w") as f:
-    f.write(combined_iframe_html)
-
-print("✅ Created combined_container_iframe_report.html")
